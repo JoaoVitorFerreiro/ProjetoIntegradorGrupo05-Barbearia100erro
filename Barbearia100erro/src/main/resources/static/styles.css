@@ -249,3 +249,8 @@ nav a:hover, nav a.active { background: var(--surface-2); color: var(--gold-ligh
   .plans-grid, .reviews-grid { grid-template-columns: 1fr; }
   .reviews-heading { align-items: flex-start; flex-direction: column; }
 }
+
+/* Logo da marca (imagem) */
+.brand-logo { display: block; height: 56px; width: 56px; object-fit: contain; border-radius: 10px; background: #000; }
+.footer .brand-logo { height: 120px; width: 120px; border-radius: 14px; }
+@media (max-width: 700px) { .brand-logo { height: 46px; width: 46px; } .footer .brand-logo { height: 96px; width: 96px; } }
